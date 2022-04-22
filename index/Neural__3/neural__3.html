@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./neural__3.css">
+    <title>Neural 3</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+</head>
+<body>
+    <h1 class="title">Нейронная сеть, определяющая, что она видит на вебкамере компьютера. </h1>
+
+    <h3>На этот раз, я решил написать нейронную сеть не с TensorFlow, а с помощью Teachable Machine.</h3>
+    <h3>
+        Teachable Machine - это программа, написанная на TensorFlow.js. Ее суть в том, что она максимально
+        упрощает создание классификаторов изображений. С помощью этой программы я могу в несколько кликков
+        создать классификаторы изображений, аудио и поз. Также я могу экспортировать код классификатора, и
+        и в дальнейшем использовать его так, как я захочу. К примеру могу просто создать модель и вставить ее
+        на этот сайт...
+    </h3>
+    <h3>
+        ...Собственно, именно это я и сделал:
+    </h3>
+
+    <div>Нейросеть "какой цвет?"</div>
+    <button type="button" class="btn" onclick="init()">Start</button>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+    <h3>
+        В датасет этой нейросети я загрузил 1 004 изображений цветных карточек - красного, зеленого и фиолетового цветов.
+        Я выбрал эти цвета, потому что у меня не было картона других цветов. Далее я обучил нейросеть, скопировал код, 
+        который мне выдал Teachable Machine и вставил в свой проект (Так все и задумывалось. Это нужно только чтобы показать -
+        какие существует способы создания нейронных сетей.). 
+    </h3>
+    <h3>
+        Так как просто создавать нейронные сети с помощью Teachable Machine - неинтересно, я больше не буду использовать
+        его в своем проекте. 
+    </h3>
+    <script type="text/javascript" src="./whatColorIsIt/script.js"></script>
+</body>
+</html>

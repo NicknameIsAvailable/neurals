@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  color: #f5774d;
+  background: #0e2198;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+hr {
+  background: #f5774d;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,77 @@
+// // импорты
+
+// шрифты
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+// // переменные
+
+// цвета
+
+$cello: #1c3452;
+$turquoise: #52deb4;
+$christalle: #370668;
+$cornflower__blue: #7360ee;
+
+// шрифты
+
+$comfortaa: 'Comfortaa', cursive;
+
+
+body {
+    background: $christalle;
+    color: $cornflower__blue;
+    font-family: $comfortaa;
+    padding-bottom: 5%;
+
+
+    h3  {
+        color: white;
+    }
+
+    .description {
+        background: rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        border-radius: 16px;
+    }
+}
+
+.thatShit {
+    background: #000;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#canvas {
+    border:8px solid;
+}
+
+#canvasimg {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 280px;
+    height: 280px;
+    display: none;
+}
+
+input {
+    border-radius: 16px;
+    color: white;
+    padding: 16px;
+    background: $cornflower__blue;
+    border: none;
+}
+
+.content {
+    width: 60%;
+    margin-top: 500px;
+    
+    img {
+        width: 100%;
+    }
+}
+
+a {
+    color: blue;
+}
+
