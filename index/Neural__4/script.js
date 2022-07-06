@@ -6,7 +6,7 @@ function setup() {
   noCanvas(); 
   video = createCapture(VIDEO); 
   classifier = ml5.imageClassifier('MobileNet', video, modelReady); 
-  resultsP = createP('Loading model and video...'); 
+  resultsP = createP('Подгрузка сети и видео'); 
 }
 
 function modelReady() {
