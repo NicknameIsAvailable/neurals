@@ -1,26 +1,30 @@
 <html>
 <head>
+
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
       <!-- подключение TensorFlow.js -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
   <!-- подключение tfjs-vis -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    <meta charset="utf-8"/>
+    <lang></lang>
 
-
-    <link rel="stylesheet" href="Neural__2.css">
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
 </head>
 <body>
+<div class="mui-container" style="margin-left: 20px;">
     <h1>Классификатор рукописных цифр</h1>
 
-    <div class="content">
+
         <canvas id="canvas" width="280" height="280" style="position:absolute;top:100;left:100;border:8px solid;"></canvas>
         <img id="canvasimg" style="position:absolute;top:10%;left:52%;width: 280px; height: 280px;display:none;">
-        <input type="button" value="Классифицировать" id="sb" size="48" style="position:absolute;top:400;left:100;">
-        <input type="button" value="Очистить" id="cb" size="23" style="position:absolute;top:400;left:280;">
+        <input class="mui-btn mui-btn--raised" style="margin-top: 340px; margin-right: 16px;" type="button" value="Классифицировать" id="sb" size="48" style="position:absolute;top:400;left:100;">
+        <input class="mui-btn mui-btn--raised" style="margin-top: 340px;" type="button" value="Очистить" id="cb" size="23" style="position:absolute;top:400;left:280;">
 
 
-        <h1>Как это работает?</h1>
+        <h1 style="margin-top: 16px;">Как это работает?</h1>
 
         <h2>Вкратце</h2>
 
